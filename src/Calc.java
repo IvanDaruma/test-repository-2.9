@@ -9,7 +9,6 @@ public class Calc {
         char operation = scanner.next().charAt(0);
         System.out.println("Введите 2е число");
         int operand2 = scanner.nextInt();
-
         System.out.println(operand1+ " " +operation+ " " +operand2+ " =" +calculate(operand1, operand2, operation));
     }
     public static int calculate (int operand1, int operand2, char operation) {
